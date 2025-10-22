@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center gap-2
+           rounded-sm px-5 py-3 text-[13px] leading-[20px] font-medium
+           shadow-soft transition;
+  }
+  .btn-primary { @apply bg-brand-cyan text-white hover:brightness-110; }
+  .btn-outline { @apply border-2 border-brand-cyan text-brand-cyan hover:bg-brand-cyan hover:text-white; }
+
+  .badge {
+    @apply inline-flex h-9 items-center rounded-sm px-4
+           text-white uppercase text-[13px] leading-[22px] tracking-wideish
+           whitespace-nowrap;
+  }
+  .badge--navy { @apply bg-brand-navy; }
+  .badge--cyan { @apply bg-brand-cyan; }
+
+  .card {
+    @apply rounded-[8px] border border-brand-gray bg-white p-[30px] shadow-soft;
+  }
+}
+
+@layer utilities {
+  .sr-only-focusable:focus {
+    @apply not-sr-only;
+  }
+}
+
+.btn:focus-visible {
+  @apply outline-none ring-2 ring-brand-cyan;
+  @apply ring-offset-0;
+}
