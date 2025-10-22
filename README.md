@@ -1,6 +1,6 @@
 # OCTO — тестовая вёрстка
 
-Проект по макету из Figma «Тестовое задание Octo.fig».
+Проект по макету из Figma «Тестовое задание Octo.fig». Демо - https://octo-landing.vercel.app/
 Представляет собой адаптивную вёрстку под 5 разрешений: xs / ssm / sm / md / lg.
 
 Технологии: Vite + React + Tailwind CSS
