@@ -1,23 +1,23 @@
-OCTO — тестовая вёрстка
+# OCTO — тестовая вёрстка
 
 Проект по макету из Figma «Тестовое задание Octo.fig».
 Представляет собой адаптивную вёрстку под 5 разрешений: xs / ssm / sm / md / lg.
 
 Технологии: Vite + React + Tailwind CSS
  
-# Установка
+## Установка
 npm ci
 
-# Дев-сервер
+## Дев-сервер
 npm run dev   # http://localhost:5173
 
-# Прод-сборка
+## Прод-сборка
 npm run build   # артефакты в /dist
 
-# Предпросмотр прод-сборки
+## Предпросмотр прод-сборки
 npm run preview
 
-# Docker
+## Docker
 docker build -t octo-landing .
 docker run --rm -p 8080:80 octo-landing
 # открыть http://localhost:8080
