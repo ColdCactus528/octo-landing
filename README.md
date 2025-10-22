@@ -2,6 +2,7 @@
 
 Проект по макету из Figma «Тестовое задание Octo.fig». 
 Представляет собой адаптивную вёрстку под 5 разрешений: xs / ssm / sm / md / lg.
+
 Демо - https://octo-landing.vercel.app/ .
 
 Технологии: Vite + React + Tailwind CSS
