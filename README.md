@@ -14,7 +14,7 @@ npm ci
 npm run dev   # http://localhost:5173
 
 ## Прод-сборка
-npm run build   # артефакты в /dist
+npm run build
 
 ## Предпросмотр прод-сборки
 npm run preview
@@ -22,4 +22,5 @@ npm run preview
 ## Docker
 docker build -t octo-landing .
 docker run --rm -p 8080:80 octo-landing
+
 открыть http://localhost:8080
