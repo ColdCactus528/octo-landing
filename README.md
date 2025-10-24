@@ -11,7 +11,8 @@
 npm ci
 
 ## Дев-сервер
-npm run dev   # http://localhost:5173
+npm run dev   
+http://localhost:5173
 
 ## Прод-сборка
 npm run build
