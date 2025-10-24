@@ -22,4 +22,4 @@ npm run preview
 ## Docker
 docker build -t octo-landing .
 docker run --rm -p 8080:80 octo-landing
-# открыть http://localhost:8080
+открыть http://localhost:8080
